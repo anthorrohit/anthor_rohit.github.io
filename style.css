@@ -1,0 +1,285 @@
+
+*{
+	margin: 0;
+	padding: 0;box-sizing: border-box;
+}
+
+
+body{
+	background-repeat:no-repeat;
+	background-size:cover;
+	width: 100%;height: 100vh;
+	margin:0;padding:0;
+
+	
+	
+	
+}
+
+h3{align-items: center;
+	text-align: center;
+	margin-left: 100px;
+	margin-top: 5%;
+	
+	
+	
+}
+button{
+	
+	align-item:center;
+	text-align:center;
+	
+}
+.bt1 hover:{
+	size:12px;
+	color:black;
+	animation: ease; .5s;
+	
+	
+	
+}
+
+.Anthor{
+
+
+
+	text-shadow: 1px 1px 2px black;
+	text-overflow: unset;
+	text-align: center;
+	font-family: serif;
+	align-items: center;
+	
+
+}
+
+
+
+
+
+
+main{
+
+width: 100%;height: 85vh;
+display: flex;justify-content: center;align-items: center;text-align: center;
+color: white;
+text-shadow: 1px 1px 2px black;
+color: : black;
+justify-content: space-around;
+
+
+}
+section{
+
+
+}
+
+section.h3{
+
+	font-size: 35px;font-weight: 200;letter-spacing: 3px;
+	text-shadow: 1px 1px 2px black;
+}
+section.h1{
+
+	margin: 30px 0 20px 0;font-size: 55px;font-weight: 700;
+	text-shadow: 2px 1px 5px black;text-transform: uppercase;
+
+}
+section.p{
+	font-size: 25px;word-spacing: 2px;margin-bottom: 25px;
+	text-shadow: 1px 1px 1px black;
+
+
+
+
+
+}
+
+section.a{
+	padding: 12px 30px;border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all 5s ease;
+
+
+
+
+}
+section.bt1{
+	background: #fff;
+	color:#000;
+
+
+
+
+
+}
+section.bt2{
+	background color:white;
+	color:#fff;
+	border: 1px ;
+	border-color: black;
+	text-decoration: none;
+	}
+
+	section.bt2:hover{
+	background: #fff;
+	color:#000;}
+	section.bt1:hover{
+	background: #000;
+	color:#fff;
+	}
+.change_content:after{
+	content:"";
+	animation: changetext 10s infinite linear;
+	color: #00b894;
+	text-shadow: 1px 1px 2px black;
+
+
+
+
+
+
+}
+@keyframes changetext{
+	0%{content:"web developer";}
+	50%{content:"PHOTOGRAPHER";}
+	100%{content:"YOUTUBER";}
+
+
+
+
+}
+
+
+
+
+
+section.signup{ text-decoration: none; }
+
+.bt3{
+
+
+display: flex;justify-content: space-around;
+margin-top: 25px;
+text-decoration:none;
+font-weight: bold;
+font-family: sans-serif;
+
+
+}
+.bt3 a {
+
+	text-decoration: none;
+	text-overflow:unset;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 1px 1px 2px black;
+	font-family: sans-serif;
+	width-left: 20px;height: 5px;
+	justify-content: space-around;
+	background-repeat: no-repeat;
+	transition: all  ease 0.5s ;
+
+
+
+
+}
+
+.bt3 a:hover{
+	background-color: rgb(#000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+#youtube{
+	background: rgb(230,33,23);
+	margin: 0;padding: 0;
+	background-size: 25px;
+
+}
+#Instagram{background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+margin: 0;padding: 0;
+font-color: white;
+}
+#Blog{background-color: orange;
+      
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+	align-items: center;
+	text-align: center;
+	margin-left: 100px;
+	
+	margin-top: 5%;
+	
+}
+nav{
+	width: 100% ; height: 15vh;
+	text-align: center;
+	background:rgba(0,0,0,0.2);
+	color:white;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	background-width:100%;
+	
+
+}
+.menu{
+width:40%;
+display: flex;
+justify-content: space-around;
+font-weight:bold;
+text-decoration: none;
+text-transform: uppercase;
+color:white;
+	
+}
+.menu a{
+width:40%;
+display: flex;
+justify-content: space-around;
+font-weight:bold;
+text-decoration: none;
+text-transform: uppercase;
+color:white;
+}
+
+
+.first{color:#00b894; }
