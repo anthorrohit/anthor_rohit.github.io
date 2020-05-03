@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="vegetable.css">
+	
+	<title>buy now</title>
+</head>
+<body>
+
+
+	<form>
+		<label>name</label>
+		<br>
+
+	<input type="text" name="name"><br>
+	<label>whatsapp no</label>
+		<br>
+
+	<input type="phone number" name="phone"><br>
+	 <label>Address</label> 
+		<br>
+
+	<!-- <input type="e-mail" name="email"><br><br> -->
+
+	<textarea rows="5" cols="40" placeholder="your address with pin code"></textarea><br>
+	<!-- -------------------------------------------------------------------------------------------location--------------------------------------- --> 
+	<p>Click the button to give your delivering location</p>
+<button onclick="getLocation()"> click here</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+<!-- -------------------------------------------------------------------------------------------location----------------------------------------- -->
+	<!-- ------------------------------------------------fist part------------------------------------------------ -->
+	<center><h1 class="vege">VEGETABLES</h1></center><br><div class="fist">
+	<input type="checkbox" name="guava" value="guava">red potato<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="papaya" value="papaya"> white potato<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="mango" value="mango">onion<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="lichi" value="lichi">tomato<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="grapes" value="grapes"> bringle(bhanta)<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+
+
+</div>
+<!-- ------------------------------------------------end----------------------------------------------------------------------------------------- -->
+<div class="twond">
+<input type="checkbox" name="guava" value="guava">bringle(long)<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="papaya" value="papaya">cauliflower<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="mango" value="mango">cabbage<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="lichi" value="lichi">pea<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="grapes" value="grapes">raddish<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+
+
+</div>
+</div>
+
+	</form>
+	<form class="next">
+		<input type="checkbox" name="guava" value="guava">lady finger<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="papaya" value="papaya">beans<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="mango" value="mango"> Capsicum-green<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="lichi" value="lichi">cucumber<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="grapes" value="grapes">ginger<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+
+
+</div><input type="checkbox" name="guava" value="guava">Sweet gourd(nenooa)<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="papaya" value="papaya">seem<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="mango" value="mango">bottle gourd<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="lichi" value="lichi">palak<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="grapes" value="grapes">red saag<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+
+
+</div>
+	
+	</form>
+	<form class="next2">
+		<input type="checkbox" name="guava" value="guava">bitter gourd<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="papaya" value="papaya">parval<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="mango" value="mango">methi (Fenugreek)<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="lichi" value="lichi">corinder leaf<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="grapes" value="grapes">lemon<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+
+
+</div><input type="checkbox" name="guava" value="guava">kathal(jack fruits)<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="papaya" value="papaya">pudina (leaf)<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="mango" value="mango">spring onion<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="lichi" value="lichi">green chilli<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="grapes" value="grapes">red chilli<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+
+
+</div>
+	</form>
+	<form class="next3">
+		<input type="checkbox" name="guava" value="guava">sehjan<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="papaya" value="papaya">beetroot<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="mango" value="mango">red capsicum<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="lichi" value="lichi">colocasia(aruee)<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+	<input type="checkbox" name="grapes" value="grapes">turnip<div id="c"><input type="number" name="" placeholder="weight"><br></div>
+
+
+</form><!-- <hr> -->
+
+<input type="submit" name="" class="submit">
+
+
+
+</body>
+</html>

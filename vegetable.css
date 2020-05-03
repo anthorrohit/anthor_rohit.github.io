@@ -1,0 +1,45 @@
+body{
+background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+background-size: cover;
+/*background-size: 100%;
+background-repeat: no-repeat;*/
+
+  text-transform: uppercase;
+}
+
+form.twond{
+  margin-top: 20px;
+  margin-left: 250px;
+text-transform: uppercase;
+}
+.next{
+  margin-top: -400px;
+  margin-left: 250px;
+  text-transform: uppercase;
+
+}
+.next2{
+  margin-top: -400px;
+  margin-left: 500px;
+  text-transform: uppercase;
+
+}
+.next3{
+  margin-top: -400px;
+  margin-left: 950px;
+  text-transform: uppercase;
+
+}
+.vege{
+	color: lightgreen;
+  text-shadow: 2px 2px 6px black;
+
+}
+.submit{
+	color: green;
+  text-shadow: 2px 2px 6px yellow;
+  margin-top: 250px;
+  margin-left: 550px;
+  background-size: 150px;
+
+}
